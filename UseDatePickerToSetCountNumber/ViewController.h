@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+{
+    NSTimeInterval n;
+}
+@property (weak, nonatomic) IBOutlet UIButton *timeButton;
 
 @end
 
